@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(13, 13, 75);
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        list-style-type: none;
+        margin: 0 23px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover {
+        color: rgb(114, 114, 228);
+        font-size: 1.04rem;
+    }
+    .left {
+        font-size: 2rem;
+    }
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+    }
+
+    .leftsection {
+        font-size: 1rem;
+    }
+
+    .rightsection {
+        width: 10%;
+    }
+
+    .purple {
+        color: blueviolet;
+    }
+
+    #element {
+        color: rgb(114, 114, 228);
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+
+    }
+
+    .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+        margin-left: 40%;
+    }
+
+    main ul li {
+        list-style-type: disc;
+        margin: 7px 23px;
+    }
+
+    .firstsection>div {
+        width: 30%;
+    }
+
+    .mhead {
+        font-size: 2rem;
+        color: rgb(157, 19, 157);
+        width: max-content;
+
+    }
+
+    .mbody {
+        width: 700px;
+        size: 1rem;
+
+    }
+
+    .micon {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .mongo {
+        width: 10%;
+    }
+    .demo {
+        display: flex;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mohini's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html"> Home </a></li>
+                    <li><a href="/about.html"> About </a></li>
+                    <li><a href="/"> Projects </a></li>
+                    <li><a href="/contact.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="mern">
+                    <div class="mhead"><span id="mern">Shopping Application</span></div>
+                    <div class="micon">
+                        <div class="mongo"><img src="mongodb.png" alt=""></div>
+                        <div class="express"><img src="express.png" alt=""></div>
+                        <div class="react"><img src="react.png" alt=""></div>
+                        <div class="node"><img src="nodejs.png" alt=""></div>
+                    </div>
+                    <div class="mbody">
+                        <ul>
+                            <li>Developed a full-stack shopping website project using the MERN (MongoDB, Express.js,
+                                React.js, Node.js) stack.</li>
+                            <li>Implemented responsive and user-friendly front-end interfaces using React.js, HTML, CSS,
+                                and JavaScript.</li>
+                            <li>Utilized Express.js and Node.js to build a robust and scalable back-end server to handle
+                                user requests and manage database operations.</li>
+                            <li>Integrated MongoDB as the database to store and retrieve product information, user
+                                profiles, and order details.</li>
+                            <li>Implemented user authentication and authorization functionalities using JSON Web Tokens
+                                (JWT) for secure login and access control.</li>
+                            <li>Integrated third-party APIs for features like payment gateways, shipping services, and
+                                social media login.</li>
+                            <li>Utilized Redux for state management, ensuring seamless data flow across different
+                                components of the application.</li>
+                            <li>Implemented cart functionality, allowing users to add, update, and remove items from
+                                their shopping cart.</li>
+                            <li>Conducted thorough testing and debugging, ensuring high-quality and error-free code.
+                            </li>
+                            <li>Collaborated with a team of developers, designers, and project managers to deliver the
+                                project within the specified timeline.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="demo">
+                    <div><a class="btn btn-outline-primary" href="#" role="button">Link</a></div>
+                </div> -->
+                
+            </div>
+            <div class="rightsection">
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_jcp3ub1x.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+            </div>
+        </section>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div class="pdc">
+                    <div class="mhead"><span id="pdc">Potato Disease Classification</span></div>
+                    <div class="micon">
+                        <div class="mongo"><img src="py.png" alt=""></div>
+                        <div class="express"><img src="tf.png" alt=""></div>
+                        <div class="react"><img src="st.png" alt=""></div>
+                        <div class="node"><img src="ml.png" alt=""></div>
+                    </div>
+                    <div class="mbody">
+                        <ul>
+                            <li>Developed a Potato disease classification project utilizing Python and Convolutional Neural Networks (CNN) for accurate disease identification in potato crops.</li>
+                            <li>Preprocessed and augmented a large dataset of potato disease images to enhance model training and performance.</li>
+                            <li>Implemented a CNN model architecture using popular deep learning framework <i>TensorFlow.</i></li>
+                            <li>Fine-tuned the CNN model on the potato disease dataset to optimize its ability to accurately classify different types of diseases.</li>
+                            <li>Conducted extensive hyperparameter tuning to improve the model's performance in terms of accuracy and generalization.</li>
+                            <li>Integrated the trained CNN model into a user-friendly web or mobile application interface for convenient disease classification.</li>
+                            <li>The user can upload a picture of a potao leaf, rapidly determine whether the crop has been infected and also receive treatment suggestions.</li>
+                            <li>Implemented appropriate evaluation metrics and conducted rigorous testing to validate the model's performance and robustness.</li>
+                            <li>Documented the entire development process, including model architecture, data preprocessing techniques, and training methodologies, to facilitate future maintenance and scalability.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="demo">
+                    <div><a class="btn btn-outline-primary" href="#" role="button">Link</a></div>
+                    <div><a class="btn btn-outline-info" href="#" role="button">Report</a></div>
+                </div> -->
+            </div>
+            <div class="rightsection">
+                <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_uPKZ69ixvZ.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay></lottie-player>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-rights">Made with ❤️ by Mohini Agarwal
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

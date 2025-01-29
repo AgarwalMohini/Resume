@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(13, 13, 75);
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        list-style-type: none;
+        margin: 0 23px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover {
+        color: rgb(114, 114, 228);
+        font-size: 1.04rem;
+    }
+    .left {
+        font-size: 2rem;
+    }
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+    }
+    .leftsection {
+        font-size: 1rem; 
+    }
+    .rightsection img {
+        width: 70%;
+        border-radius: 50%;
+        animation: float 5s ease-in-out infinite;
+    }
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-2.5rem);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    .purple {
+        color: blueviolet;
+    }
+    #element {
+        color: rgb(114, 114, 228) ;
+    }
+
+    .footer {
+        display: flex;
+        padding: 23px 122px;
+
+    }
+    .footer-rights {
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+        margin-left: 40%;
+    } 
+    main ul li {
+        list-style-type: none;
+        margin: 7px 23px;
+    }
+    .firstsection > div {
+        width: 35%;
+    }
+
+</style>
+<body>
+    <header>
+        <nav>
+            <div class = "left">Mohini's Portfolio</div>
+            <div class = "right">
+                <ul>
+                    <li><a href="/index.html"> Home </a></li>
+                    <li><a href="/"> About </a></li>
+                    <li><a href="/project.html"> Projects </a></li>
+                    <li><a href="/contact.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+            <ul>
+            <li> I am B.Tech in Computer Science  Undergraduate (Batch 2022-2026) From ABES. </li>
+            <li> I have developed a solid foundation in software development. Through my coursework, </li>
+            <li> I have gained hands-on experience in coding languages such as Python, C, and JavaScript. </li>
+            <li> I am a quick learner and thrive in fast-paced environments. </li> 
+            <li> I am highly organized, detail-oriented, and possess strong analytical skills that enable me to troubleshoot and resolve complex challenges efficiently. </li>
+            <li> In my free time i like exploring new places with friends, trying new cuisines and collecting souvenirs</li>
+            <li> I am also passionate about reading Books.</li>
+            </ul>
+            </div>
+            <div class="rightsection">
+                <img src="dp.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer"> 
+            <div class="footer-rights">Made with ❤️ by Mohini Agarwal </div>
+        </div>
+    </footer>
+</body>
+</html>
